@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="320.0" maxWidth="700.0" minHeight="320.0" minWidth="700.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUIController.weeklySchedulePage">
+   <children>
+      <VBox fx:id="VBox" alignment="CENTER" prefHeight="358.0" prefWidth="700.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox prefHeight="298.0" prefWidth="680.0">
+               <children>
+                  <TableView fx:id="fridayTableView" prefHeight="100.0" prefWidth="205.0">
+                     <columns>
+                        <TableColumn fx:id="fridayColumn" prefWidth="100.0">
+                           <graphic>
+                              <Label fx:id="label7" prefHeight="17.0" prefWidth="51.0" text="جمعه" />
+                           </graphic>
+                        </TableColumn>
+                     </columns>
+                  </TableView>
+                  <TableView fx:id="thursdayTableView" prefHeight="100.0" prefWidth="205.0">
+                     <columns>
+                        <TableColumn fx:id="thursdayColumn" prefWidth="100.0">
+                           <graphic>
+                              <Label fx:id="label6" prefHeight="17.0" prefWidth="41.0" text="پنجشنبه" />
+                           </graphic>
+                        </TableColumn>
+                     </columns>
+                  </TableView>
+                  <TableView fx:id="wendesdayTableView" prefHeight="100.0" prefWidth="205.0">
+                     <columns>
+                        <TableColumn fx:id="wendesdayColumn" prefWidth="100.0">
+                           <graphic>
+                              <Label fx:id="label5" prefHeight="17.0" prefWidth="51.0" text="چهارشنبه" />
+                           </graphic>
+                        </TableColumn>
+                     </columns>
+                  </TableView>
+                  <TableView fx:id="tuesdayTableView" prefHeight="100.0" prefWidth="205.0">
+                     <columns>
+                        <TableColumn fx:id="tuesdayColumn" prefWidth="100.0">
+                           <graphic>
+                              <Label fx:id="label4" prefHeight="17.0" prefWidth="64.0" text="سه‌شنبه" />
+                           </graphic>
+                        </TableColumn>
+                     </columns>
+                  </TableView>
+                  <TableView fx:id="mondayTableView" prefHeight="100.0" prefWidth="205.0">
+                     <columns>
+                        <TableColumn fx:id="mondayColumn" minWidth="0.0" prefWidth="100.0">
+                           <graphic>
+                              <Label fx:id="label3" prefHeight="17.0" prefWidth="90.0" text="دوشنبه" />
+                           </graphic>
+                        </TableColumn>
+                     </columns>
+                  </TableView>
+                  <TableView fx:id="sundayTableView" prefHeight="100.0" prefWidth="205.0">
+                     <columns>
+                        <TableColumn fx:id="sundayColumn" prefWidth="100.0">
+                           <graphic>
+                              <Label fx:id="label2" prefHeight="17.0" prefWidth="62.0" text="یکشنبه" />
+                           </graphic>
+                        </TableColumn>
+                     </columns>
+                  </TableView>
+                  <TableView fx:id="saturdayTableView" prefHeight="100.0" prefWidth="205.0">
+                     <columns>
+                        <TableColumn fx:id="saturdayColumn" minWidth="100.0" prefWidth="100.0">
+                           <graphic>
+                              <Label fx:id="label1" prefHeight="17.0" prefWidth="70.0" text="شنبه" />
+                           </graphic>
+                        </TableColumn>
+                     </columns>
+                  </TableView>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

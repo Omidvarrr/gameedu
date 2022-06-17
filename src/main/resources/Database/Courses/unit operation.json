@@ -1,0 +1,36 @@
+{
+  "name": "unit operation",
+  "credit": 4,
+  "id": "5000101",
+  "department": {
+    "type": "CHE"
+  },
+  "teacher": {
+    "roomNumber": 101,
+    "grade": "full",
+    "chief": true,
+    "id": 11,
+    "password": "Sghlphgj123",
+    "username": "5001",
+    "firstName": "ali",
+    "lastName": "farahani",
+    "nationalCode": "4321475937",
+    "email": "alifarahani@gmail.com",
+    "phoneNumber": "09926748791",
+    "department": {
+      "type": "CHE"
+    },
+    "type": "PROFESSOR"
+  },
+  "grade": "B_S",
+  "days": [
+    "saturday",
+    "monday"
+  ],
+  "time": "9:00",
+  "testDate": "23 khordad 9:00 AM",
+  "grades": {
+    "3": -1
+  },
+  "scoreStatus": "TEMPORARY"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "heat transfer",
+  "credit": 4,
+  "id": "5000102",
+  "department": {
+    "type": "CHE"
+  },
+  "teacher": {
+    "roomNumber": 103,
+    "grade": "associate",
+    "id": 12,
+    "password": "Sghlphgj123",
+    "username": "5002",
+    "firstName": "mina",
+    "lastName": "ghasemi",
+    "nationalCode": "4237952390",
+    "email": "mohammadfekri@gmail.com",
+    "phoneNumber": "09027649812",
+    "department": {
+      "type": "CHE"
+    },
+    "type": "PROFESSOR"
+  },
+  "grade": "B_S",
+  "days": [
+    "saturday",
+    "monday"
+  ],
+  "time": "9:00",
+  "testDate": "23 khordad 9:00 AM",
+  "grades": {
+    "1": -1
+  },
+  "scoreStatus": "TEMPORARY"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "analog",
+  "credit": 2,
+  "id": "3000101",
+  "department": {
+    "type": "EE"
+  },
+  "teacher": {
+    "roomNumber": 101,
+    "grade": "full",
+    "chief": true,
+    "id": 8,
+    "password": "Sghlphgj123",
+    "username": "4001",
+    "firstName": "narges",
+    "lastName": "tabatabaei",
+    "nationalCode": "1374826583",
+    "email": "nargestabatabaei@gmail.com",
+    "phoneNumber": "09351897623",
+    "department": {
+      "type": "EE"
+    },
+    "type": "PROFESSOR"
+  },
+  "grade": "B_S",
+  "days": [
+    "saturday",
+    "monday"
+  ],
+  "time": "9:00",
+  "testDate": "23 khordad 9:00 AM",
+  "grades": {
+    "4": -1
+  },
+  "scoreStatus": "TEMPORARY"
+}

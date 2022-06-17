@@ -1,0 +1,18 @@
+{
+  "roomNumber": 101,
+  "grade": "full",
+  "chief": true,
+  "educationalAssistant": false,
+  "id": 4,
+  "password": "Sghlphgj123",
+  "username": "2001",
+  "firstName": "mehrdad",
+  "lastName": "mosahebi",
+  "nationalCode": "6482764091",
+  "email": "mehrdadmosahebi@gmail.com",
+  "phoneNumber": "09302176439",
+  "department": {
+    "type": "CE"
+  },
+  "type": "PROFESSOR"
+}

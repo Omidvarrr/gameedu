@@ -1,0 +1,18 @@
+{
+  "roomNumber": 102,
+  "grade": "associate",
+  "chief": false,
+  "educationalAssistant": true,
+  "id": 7,
+  "password": "Sghlphgj123",
+  "username": "3002",
+  "firstName": "musa",
+  "lastName": "shokri",
+  "nationalCode": "4201873642",
+  "email": "musashokri@gmail.com",
+  "phoneNumber": "09137648923",
+  "department": {
+    "type": "IE"
+  },
+  "type": "PROFESSOR"
+}

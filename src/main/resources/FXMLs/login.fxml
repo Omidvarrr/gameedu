@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUIController.LoginPage">
+   <top>
+      <HBox fx:id="loginPageTopHBox" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: E4E6EB;" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" text="خوش آمدید :)">
+               <font>
+                  <Font name="Estedad Black" size="37.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </top>
+   <left>
+      <VBox prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: E4E6EB;" BorderPane.alignment="CENTER" />
+   </left>
+   <right>
+      <VBox prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: E4E6EB;" BorderPane.alignment="CENTER" />
+   </right>
+   <bottom>
+      <VBox prefHeight="36.0" prefWidth="600.0" style="-fx-background-color: E4E6EB;" BorderPane.alignment="CENTER" />
+   </bottom>
+   <center>
+      <VBox prefHeight="264.0" prefWidth="362.0" spacing="14.0" style="-fx-background-color: E4E6EB;" BorderPane.alignment="CENTER_RIGHT">
+         <children>
+            <TextField fx:id="loginPageUserNameField" prefHeight="26.0" prefWidth="309.0" promptText="نام کاربری">
+               <font>
+                  <Font name="Estedad Light" size="13.0" />
+               </font></TextField>
+            <PasswordField fx:id="loginPagePasswordField" promptText="رمز عبور">
+               <font>
+                  <Font name="Estedad Light" size="13.0" />
+               </font></PasswordField>
+            <ImageView fx:id="loginPageCaptchaImage" fitHeight="40.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+               <VBox.margin>
+                  <Insets left="94.0" top="-2.0" />
+               </VBox.margin>
+            </ImageView>
+            <HBox alignment="CENTER_RIGHT" prefHeight="42.0" prefWidth="294.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#captchaLoader" prefHeight="33.0" prefWidth="32.0">
+                     <HBox.margin>
+                        <Insets right="9.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#doneButton" prefHeight="35.0" prefWidth="97.0" text="ورود">
+                     <HBox.margin>
+                        <Insets right="6.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Estedad SemiBold" size="13.0" />
+                     </font>
+                  </Button>
+                  <TextField fx:id="loginPageCaptchaField">
+                     <padding>
+                        <Insets right="-6.0" top="5.0" />
+                     </padding>
+                  </TextField>
+               </children>
+               <VBox.margin>
+                  <Insets top="-9.0" />
+               </VBox.margin>
+            </HBox>
+            <Label fx:id="captchaWrongWarning" prefHeight="18.0" prefWidth="261.0" textFill="#b90000" />
+            <Label fx:id="userNotFoundWarning" prefHeight="18.0" prefWidth="261.0" textFill="#b90000" />
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets left="60.0" right="60.0" top="28.0" />
+         </padding>
+      </VBox>
+   </center>
+</BorderPane>

@@ -1,0 +1,34 @@
+{
+  "grade": "B_S",
+  "status": "gratuated",
+  "supervisor": {
+    "roomNumber": 102,
+    "grade": "assistant",
+    "educationalAssistant": true,
+    "id": 0,
+    "password": "Sghlphgj123",
+    "username": "4002",
+    "firstName": "asghar",
+    "lastName": "sohrabi",
+    "nationalCode": "2484013875",
+    "email": "asgharshorabi@gmail.com",
+    "phoneNumber": "09189847610",
+    "department": {
+      "type": "EE"
+    },
+    "type": "PROFESSOR"
+  },
+  "enteringYear": 1397,
+  "id": 10,
+  "password": "omidvar",
+  "username": "ali",
+  "firstName": "sam",
+  "lastName": "aslani",
+  "nationalCode": "5030087931",
+  "email": "aliomidvarrrrr@gmail.com",
+  "phoneNumber": "09351616136",
+  "department": {
+    "type": "EE"
+  },
+  "type": "STUDENT"
+}

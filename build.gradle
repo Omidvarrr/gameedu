@@ -1,0 +1,48 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.9'
+    id 'com.gluonhq.gluonfx-gradle-plugin' version '1.0.13'
+}
+
+
+javafx {
+    version = "15.0.1"
+    modules = [ 'javafx.controls','javafx.fxml' ]
+}
+
+gluonfx {
+    target = "host"
+    if (project.hasProperty('target')) {
+        target = project.getProperty('target')
+    }
+}
+
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'application'
+apply plugin: 'org.openjfx.javafxplugin'
+apply plugin: 'com.gluonhq.gluonfx-gradle-plugin'
+
+repositories {
+    mavenCentral()
+    maven {
+        url 'https://nexus.gluonhq.com/nexus/content/repositories/releases'
+    }
+
+}
+
+
+dependencies {
+    implementation 'com.google.code.gson:gson:2.9.0'
+    implementation 'com.jfoenix:jfoenix:9.0.10'
+}
+
+
+
+test {
+    useJUnitPlatform()
+}
+mainClassName = 'Main'

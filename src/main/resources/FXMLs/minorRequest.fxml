@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane fx:id="anchorPane" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUIController.MinorRequestPage">
+   <children>
+      <VBox alignment="TOP_CENTER" prefHeight="163.0" prefWidth="333.0" spacing="2.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="10.0" top="10.0" />
+         </padding>
+         <children>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="17.0">
+               <children>
+                  <ChoiceBox fx:id="departmentChoiceBox" prefHeight="26.0" prefWidth="176.0" />
+                  <Label fx:id="label1" text="دانشکاه مد نظر:" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="17.0">
+               <children>
+                  <Button fx:id="sendMinorButton" mnemonicParsing="false" onAction="#sendMinorRequest" prefHeight="26.0" prefWidth="204.0" text="ارسال درخواست" />
+               </children>
+            </HBox>
+            <Label fx:id="sendedLabel" text="درخواست شما ارسال شد!" />
+            <Label fx:id="minorSendedLabel" textFill="#039a17" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

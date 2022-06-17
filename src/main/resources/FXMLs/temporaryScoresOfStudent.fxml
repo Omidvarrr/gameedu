@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="320.0" maxWidth="700.0" minHeight="253.0" minWidth="363.0" prefHeight="253.0" prefWidth="363.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUIController.TemporaryScoresOfStudent">
+    <children>
+        <VBox fx:id="VBox" alignment="CENTER" prefHeight="358.0" prefWidth="700.0" spacing="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <HBox alignment="CENTER" prefHeight="206.0" prefWidth="700.0">
+                    <children>
+                        <TableView fx:id="scoreTableView" prefHeight="206.0" prefWidth="279.0">
+                            <columns>
+                                <TableColumn fx:id="courseColumn" prefWidth="159.5">
+                                    <graphic>
+                                        <Label fx:id="label2" prefHeight="17.0" prefWidth="70.0" text="درس" />
+                                    </graphic>
+                                </TableColumn>
+                        <TableColumn fx:id="scoreColumn" prefWidth="121.0">
+                           <graphic>
+                              <Label fx:id="label1" prefHeight="17.0" prefWidth="70.0" text="نمره موقت" />
+                           </graphic>
+                        </TableColumn>
+                            </columns>
+                        </TableView>
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

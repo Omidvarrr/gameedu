@@ -1,0 +1,35 @@
+{
+  "grade": "M_A",
+  "status": "gratuated",
+  "supervisor": {
+    "roomNumber": 102,
+    "grade": "associate",
+    "educationalAssistant": true,
+    "id": 0,
+    "password": "Sghlphgj123",
+    "username": "1002",
+    "firstName": "ahmad",
+    "lastName": "meshkani",
+    "nationalCode": "8720183756",
+    "email": "ahmadmeshkani@gmail.com",
+    "phoneNumber": "09766528734",
+    "department": {
+      "type": "MATH"
+    },
+    "type": "PROFESSOR"
+  },
+  "enteringYear": 1398,
+  "id": 6,
+  "password": "omidvar",
+  "username": "ali",
+  "firstName": "aria",
+  "lastName": "farsi",
+  "nationalCode": "5030087931",
+  "email": "aliomidvarrrrr@gmail.com",
+  "phoneNumber": "09351616136",
+  "department": {
+    "type": "MATH"
+  },
+  "type": "STUDENT",
+  "enterTime": "2022-04-29 23:03:22"
+}

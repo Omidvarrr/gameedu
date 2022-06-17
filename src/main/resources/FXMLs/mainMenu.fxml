@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<GridPane maxHeight="400.0" maxWidth="800.0" minHeight="400.0" minWidth="800.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUIController.MainMenu">
+   <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="50.0" minWidth="50.0" prefWidth="50.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="700.0" minWidth="700.0" prefWidth="700.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="50.0" minWidth="50.0" prefWidth="50.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints minHeight="40.0" prefHeight="40.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="320.0" minHeight="320.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="40.0" prefHeight="40.0" vgrow="SOMETIMES" />
+   </rowConstraints>
+   <children>
+      <HBox fx:id="HBox1" alignment="TOP_CENTER" prefHeight="42.0" prefWidth="600.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <children>
+            <Label fx:id="mainMenuTimer" alignment="CENTER" prefHeight="39.0" prefWidth="305.0" text="Label">
+               <HBox.margin>
+                  <Insets right="150.0" />
+               </HBox.margin>
+               <padding>
+                  <Insets right="38.0" />
+               </padding>
+            </Label>
+            <Button mnemonicParsing="false" onAction="#goToHome" prefHeight="27.0" prefWidth="64.0" text="HOME">
+               <HBox.margin>
+                  <Insets left="150.0" top="6.0" />
+               </HBox.margin>
+               <padding>
+                  <Insets bottom="-1.0" />
+               </padding>
+            </Button>
+         </children>
+         <padding>
+            <Insets left="11.0" />
+         </padding>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </HBox>
+      <HBox fx:id="HBox2" prefHeight="20.0" prefWidth="600.0" spacing="9.0" GridPane.columnIndex="1">
+         <children>
+            <VBox prefHeight="200.0" prefWidth="100.0" spacing="1.0" />
+            <MenuButton mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" text="پروفایل کاربر">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="لیست دروس" />
+                  <MenuItem mnemonicParsing="false" text="Action 2" />
+               </items>
+               <font>
+                  <Font name="Estedad Light" size="10.0" />
+               </font>
+            </MenuButton>
+            <MenuButton mnemonicParsing="false" prefHeight="26.0" prefWidth="126.0" text="امور کارنامه">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#openTemporaryScoresPage" styleClass=".menu-item .label{    -fx-text-fill: greenyellow;}.menu-item .label{    -fx-text-fill: greenyellow;}">
+                     <graphic>
+                        <Label text="نمرات موقت">
+                           <font>
+                              <Font name="Estedad Light" size="13.0" />
+                           </font>
+                        </Label>
+                     </graphic>
+                  </MenuItem>
+                  <MenuItem mnemonicParsing="false" onAction="#goToWeeklySchedule" styleClass=".menu-item .label{    -fx-text-fill: greenyellow;}.menu-item .label{    -fx-text-fill: greenyellow;}">
+                     <graphic>
+                        <Label text="وضعیت تحصیلی دانشجو">
+                           <font>
+                              <Font name="Estedad Light" size="13.0" />
+                           </font>
+                        </Label>
+                     </graphic>
+                  </MenuItem>
+               </items>
+               <font>
+                  <Font name="Estedad Light" size="10.0" />
+               </font>
+            </MenuButton>
+            <MenuButton mnemonicParsing="false" prefHeight="26.0" prefWidth="157.0" text="خدمات آموزشی">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#goToWeeklySchedule" styleClass=".menu-item .label{    -fx-text-fill: greenyellow;}.menu-item .label{    -fx-text-fill: greenyellow;}">
+                     <graphic>
+                        <Label text="برنامه هفنگی">
+                           <font>
+                              <Font name="Estedad Light" size="13.0" />
+                           </font>
+                        </Label>
+                     </graphic>
+                  </MenuItem>
+                <MenuItem mnemonicParsing="false" onAction="#goToExamDatePage">
+                     <graphic>
+                        <Label text="لیست امتحانات">
+                           <font>
+                              <Font name="Estedad Light" size="13.0" />
+                           </font>
+                        </Label>
+                     </graphic>
+                  </MenuItem>
+                  <MenuItem mnemonicParsing="false" onAction="#openRequestsPage">
+                     <graphic>
+                        <Label text="درخواست‌ها">
+                           <font>
+                              <Font name="Estedad Light" size="13.0" />
+                           </font>
+                        </Label>
+                     </graphic>
+                  </MenuItem>
+              </items>
+               <font>
+                  <Font name="Estedad Light" size="10.0" />
+               </font>
+            </MenuButton>
+            <MenuButton mnemonicParsing="false" prefHeight="26.0" prefWidth="140.0" text="امور ثبت نام">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#goToCoursesListPage">
+                     <graphic>
+                        <Label text="لیست دروس">
+                           <font>
+                              <Font name="Estedad Light" size="13.0" />
+                           </font>
+                        </Label>
+                     </graphic>
+                  </MenuItem>
+                  <MenuItem mnemonicParsing="false" onAction="#goToProfessorsListPage">
+                     <graphic>
+                        <Label text="لیست اساتید">
+                           <font>
+                              <Font name="Estedad Light" size="13.0" />
+                           </font>
+                        </Label>
+                     </graphic>
+                  </MenuItem>
+               </items>
+               <font>
+                  <Font name="Estedad Light" size="10.0" />
+               </font>
+            </MenuButton>
+         </children>
+         <padding>
+            <Insets left="76.0" right="9.0" top="7.0" />
+         </padding>
+      </HBox>
+      <HBox fx:id="HBox3" prefHeight="100.0" prefWidth="200.0" />
+      <HBox fx:id="HBox4" prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="1" />
+      <HBox fx:id="HBox5" prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="2" />
+      <HBox fx:id="HBox6" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="2" />
+      <HBox fx:id="HBox7" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+      <HBox fx:id="HBox8" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+      <AnchorPane fx:id="anchorPane" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+   </children>
+</GridPane>

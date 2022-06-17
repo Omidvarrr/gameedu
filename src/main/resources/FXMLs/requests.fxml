@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="252.0" prefWidth="391.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUIController.RequestsPage">
+   <left>
+      <VBox prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: b20000;" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets right="-50.0" />
+         </BorderPane.margin></VBox>
+   </left>
+   <right>
+      <VBox prefHeight="354.0" prefWidth="100.0" style="-fx-background-color: b20000;" BorderPane.alignment="CENTER">
+         <padding>
+            <Insets left="-21.0" right="-24.0" />
+         </padding>
+         <BorderPane.margin>
+            <Insets left="-50.0" />
+         </BorderPane.margin></VBox>
+   </right>
+   <center>
+      <VBox alignment="TOP_CENTER" prefHeight="287.0" prefWidth="291.0" spacing="14.0" style="-fx-background-color: b20000;" BorderPane.alignment="CENTER">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="10.0" top="10.0" />
+         </padding>
+         <children>
+            <Button mnemonicParsing="false" onAction="#goToRecommendationPage" prefHeight="26.0" prefWidth="200.0" text="Recommendation" />
+            <Button mnemonicParsing="false" onAction="#goToCertificateStudentPage" prefHeight="26.0" prefWidth="200.0" text="Certificate student" />
+            <Button mnemonicParsing="false" onAction="#goToMinorPage" prefHeight="26.0" prefWidth="200.0" text="Minor" />
+            <Button mnemonicParsing="false" onAction="#goToWithdrawalFromEducation" prefHeight="26.0" prefWidth="200.0" text="Withdrawal from education" />
+            <Button mnemonicParsing="false" onAction="#goToDormPage" prefHeight="26.0" prefWidth="195.0" text="Dorm Request" />
+            <Button mnemonicParsing="false" onAction="#goToThesisDefenePage" prefHeight="26.0" prefWidth="195.0" text="Thesis Defense" />
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

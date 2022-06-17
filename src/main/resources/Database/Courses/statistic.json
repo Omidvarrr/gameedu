@@ -1,0 +1,36 @@
+{
+  "name": "statistic",
+  "credit": 3,
+  "id": "3000102",
+  "department": {
+    "type": "EE"
+  },
+  "teacher": {
+    "roomNumber": 102,
+    "grade": "assistant",
+    "educationalAssistant": true,
+    "id": 9,
+    "password": "Sghlphgj123",
+    "username": "4002",
+    "firstName": "asghar",
+    "lastName": "sohrabi",
+    "nationalCode": "2484013875",
+    "email": "asgharshorabi@gmail.com",
+    "phoneNumber": "09189847610",
+    "department": {
+      "type": "EE"
+    },
+    "type": "PROFESSOR"
+  },
+  "grade": "B_S",
+  "days": [
+    "saturday",
+    "monday"
+  ],
+  "time": "9:00",
+  "testDate": "23 khordad 9:00 AM",
+  "grades": {
+    "1": -1
+  },
+  "scoreStatus": "TEMPORARY"
+}

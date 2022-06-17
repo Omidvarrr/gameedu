@@ -1,0 +1,18 @@
+{
+  "roomNumber": 101,
+  "grade": "full",
+  "chief": true,
+  "educationalAssistant": false,
+  "id": 6,
+  "password": "Sghlphgj123",
+  "username": "3001",
+  "firstName": "sina",
+  "lastName": "nasafi",
+  "nationalCode": "3718476516",
+  "email": "sinanasafi@gmail.com",
+  "phoneNumber": "09147849812",
+  "department": {
+    "type": "IE"
+  },
+  "type": "PROFESSOR"
+}

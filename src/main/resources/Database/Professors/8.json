@@ -1,0 +1,18 @@
+{
+  "roomNumber": 101,
+  "grade": "full",
+  "chief": true,
+  "educationalAssistant": false,
+  "id": 8,
+  "password": "Sghlphgj123",
+  "username": "4001",
+  "firstName": "narges",
+  "lastName": "tabatabaei",
+  "nationalCode": "1374826583",
+  "email": "nargestabatabaei@gmail.com",
+  "phoneNumber": "09351897623",
+  "department": {
+    "type": "EE"
+  },
+  "type": "PROFESSOR"
+}

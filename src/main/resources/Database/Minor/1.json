@@ -1,0 +1,42 @@
+{
+  "id": 1,
+  "student": {
+    "grade": "B_S",
+    "status": "studying",
+    "supervisor": {
+      "roomNumber": 101,
+      "grade": "full",
+      "chief": true,
+      "id": 0,
+      "password": "Sghlphgj123",
+      "username": "1001",
+      "firstName": "taha",
+      "lastName": "fathhi",
+      "nationalCode": "83719373910",
+      "email": "tahafathi@gmail.com",
+      "phoneNumber": "09379841376",
+      "department": {
+        "type": "MATH"
+      },
+      "type": "PROFESSOR"
+    },
+    "enteringYear": 1397,
+    "id": 1,
+    "password": "123",
+    "username": "123",
+    "firstName": "ali",
+    "lastName": "omidvar",
+    "nationalCode": "5030087931",
+    "email": "aliomidvarrrrr@gmail.com",
+    "phoneNumber": "09351616136",
+    "department": {
+      "type": "MATH"
+    },
+    "type": "STUDENT",
+    "enterTime": "2022-04-29 23:04:33"
+  },
+  "destination": {
+    "type": "CE"
+  },
+  "status": "SUBMITTED"
+}

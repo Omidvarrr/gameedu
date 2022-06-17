@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="250.0" maxWidth="700.0" minHeight="250.0" minWidth="700.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUIController.CertificateStudentPage">
+   <children>
+      <VBox fx:id="VBox" alignment="CENTER" prefHeight="280.0" prefWidth="700.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" spacing="13.0">
+                     <children>
+                        <Label fx:id="departmentLabel" text="Label">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="label3" prefHeight="17.0" text="از دانشکده" />
+                        <Label fx:id="numberLabel" prefHeight="20.0" text="Label">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="label2" prefHeight="17.0" prefWidth="115.0" text="به شماره دانشجویی" />
+                        <Label fx:id="nameLabel" text="Label">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="label1" text="گواهی می‌شود اقا / خانم" />
+                     </children>
+                     <padding>
+                        <Insets left="40.0" right="40.0" top="30.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0" spacing="40.0">
+                     <children>
+                        <Label fx:id="label5" text="مشغول به تحصیل هستند." />
+                        <Label fx:id="dateLabel" text="Label">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="label4" text="تا تاریخ" />
+                     </children>
+                     <padding>
+                        <Insets left="40.0" right="40.0" top="-30.0" />
+                     </padding>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,33 @@
+{
+  "grade": "B_S",
+  "status": "studying",
+  "supervisor": {
+    "roomNumber": 103,
+    "grade": "associate",
+    "id": 0,
+    "password": "Sghlphgj123",
+    "username": "5002",
+    "firstName": "mina",
+    "lastName": "ghasemi",
+    "nationalCode": "4237952390",
+    "email": "mohammadfekri@gmail.com",
+    "phoneNumber": "09027649812",
+    "department": {
+      "type": "CHE"
+    },
+    "type": "PROFESSOR"
+  },
+  "enteringYear": 1399,
+  "id": 8,
+  "password": "omidvar",
+  "username": "ali",
+  "firstName": "arta",
+  "lastName": "hojati",
+  "nationalCode": "5030087931",
+  "email": "aliomidvarrrrr@gmail.com",
+  "phoneNumber": "09351616136",
+  "department": {
+    "type": "CHE"
+  },
+  "type": "STUDENT"
+}

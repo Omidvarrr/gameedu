@@ -1,0 +1,17 @@
+{
+  "roomNumber": 103,
+  "grade": "associate",
+  "educationalAssistant": false,
+  "id": 12,
+  "password": "Sghlphgj123",
+  "username": "5002",
+  "firstName": "mina",
+  "lastName": "ghasemi",
+  "nationalCode": "4237952390",
+  "email": "mohammadfekri@gmail.com",
+  "phoneNumber": "09027649812",
+  "department": {
+    "type": "CHE"
+  },
+  "type": "PROFESSOR"
+}

@@ -1,0 +1,33 @@
+{
+  "grade": "M_A",
+  "status": "studying",
+  "supervisor": {
+    "roomNumber": 103,
+    "grade": "associate",
+    "id": 0,
+    "password": "Sghlphgj123",
+    "username": "1002",
+    "firstName": "arshak",
+    "lastName": "moghadasi",
+    "nationalCode": "8720183756",
+    "email": "ahmadmeshkani@gmail.com",
+    "phoneNumber": "09766528734",
+    "department": {
+      "type": "MATH"
+    },
+    "type": "PROFESSOR"
+  },
+  "enteringYear": 1398,
+  "id": 2,
+  "password": "omidvar",
+  "username": "ali",
+  "firstName": "golriz",
+  "lastName": "adab",
+  "nationalCode": "5030087931",
+  "email": "aliomidvarrrrr@gmail.com",
+  "phoneNumber": "09351616136",
+  "department": {
+    "type": "MATH"
+  },
+  "type": "STUDENT"
+}

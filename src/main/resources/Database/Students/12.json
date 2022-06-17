@@ -1,0 +1,34 @@
+{
+  "grade": "M_A",
+  "status": "studying",
+  "supervisor": {
+    "roomNumber": 101,
+    "grade": "full",
+    "chief": true,
+    "id": 0,
+    "password": "Sghlphgj123",
+    "username": "2001",
+    "firstName": "mehrdad",
+    "lastName": "mosahebi",
+    "nationalCode": "6482764091",
+    "email": "mehrdadmosahebi@gmail.com",
+    "phoneNumber": "09302176439",
+    "department": {
+      "type": "CE"
+    },
+    "type": "PROFESSOR"
+  },
+  "enteringYear": 1398,
+  "id": 12,
+  "password": "omidvar",
+  "username": "ali",
+  "firstName": "parisa",
+  "lastName": "mojarad",
+  "nationalCode": "5030087931",
+  "email": "aliomidvarrrrr@gmail.com",
+  "phoneNumber": "09351616136",
+  "department": {
+    "type": "CE"
+  },
+  "type": "STUDENT"
+}

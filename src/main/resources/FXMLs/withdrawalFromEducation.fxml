@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane fx:id="anchorPane" maxHeight="250.0" maxWidth="700.0" minHeight="250.0" minWidth="700.0" prefHeight="250.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUIController.WithdrawalFromEducationPage">
+   <children>
+      <VBox alignment="CENTER" layoutX="156.0" prefHeight="165.0" prefWidth="460.0" spacing="14.0" AnchorPane.leftAnchor="120.0" AnchorPane.rightAnchor="120.0" AnchorPane.topAnchor="30.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <children>
+            <TableView fx:id="withdrawalTableView" prefHeight="108.0" prefWidth="460.0">
+              <columns>
+                  <TableColumn fx:id="statusColumn" prefWidth="226.38954162597656">
+                     <graphic>
+                        <Label fx:id="label1" text="وضعیت" />
+                     </graphic>
+                  </TableColumn>
+                  <TableColumn fx:id="acceptColumn" prefWidth="118.1104736328125">
+                     <graphic>
+                        <Label fx:id="label2" text="موافقت" />
+                     </graphic>
+                  </TableColumn>
+                  <TableColumn fx:id="rejectColumn" prefWidth="114.5699462890625">
+                     <graphic>
+                        <Label fx:id="label3" text="مخالفت" />
+                     </graphic>
+                  </TableColumn>
+              </columns>
+            </TableView>
+            <HBox alignment="CENTER" prefWidth="599.0" spacing="6.0">
+               <children>
+                  <Button fx:id="sendRequestButton" mnemonicParsing="false" onAction="#goToWithdrawalRequestPage" prefHeight="26.0" prefWidth="341.0" text="ثبت درخواست" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Label fx:id="sendedLabel" layoutX="263.0" layoutY="215.0" prefHeight="17.0" text="درخواست شما با موفقیت ثبت شد!" textAlignment="CENTER" />
+   </children>
+</AnchorPane>

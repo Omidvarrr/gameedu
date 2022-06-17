@@ -1,0 +1,18 @@
+{
+  "roomNumber": 102,
+  "grade": "assistant",
+  "chief": false,
+  "educationalAssistant": true,
+  "id": 5,
+  "password": "Sghlphgj123",
+  "username": "2002",
+  "firstName": "zahra",
+  "lastName": "mohammadi",
+  "nationalCode": "3175649381",
+  "email": "zahramohammadi@gmail.com",
+  "phoneNumber": "09127846512",
+  "department": {
+    "type": "CE"
+  },
+  "type": "PROFESSOR"
+}

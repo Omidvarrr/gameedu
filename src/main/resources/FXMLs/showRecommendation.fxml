@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="anchorPane" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUIController.ShowRecommendationPage">
+   <children>
+      <VBox alignment="TOP_CENTER" prefHeight="223.0" prefWidth="505.0" spacing="13.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="10.0" top="10.0" />
+         </padding>
+         <children>
+            <HBox alignment="CENTER" prefHeight="19.0" prefWidth="370.0" spacing="21.0">
+               <children>
+                  <Label fx:id="studentNameTextField" prefHeight="17.0" text="name of studnet">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label2" prefHeight="17.0" text="گواهی می‌دهم آقا / خانم">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="teacherNameTextField" prefHeight="17.0" text="name fo professot">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label1" prefHeight="17.0" text="اینجانب">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="TOP_RIGHT" prefHeight="19.0" prefWidth="370.0">
+               <children>
+                  <Label fx:id="label3" text="درس‌های زیر را به نمرات ضمیمه شده با بنده گذرانده است:" />
+               </children>
+               <padding>
+                  <Insets right="29.0" />
+               </padding>
+            </HBox>
+            <TableView fx:id="courseAndGradeTableView" prefHeight="104.0" prefWidth="268.0">
+              <columns>
+                <TableColumn fx:id="gradeColumn" prefWidth="156.6918182373047">
+                     <graphic>
+                        <Label fx:id="label5" prefHeight="17.0" prefWidth="74.0" text="نمرات" />
+                     </graphic>
+                  </TableColumn>
+                <TableColumn fx:id="courseNameColumn" prefWidth="146.30817413330078">
+                     <graphic>
+                        <Label fx:id="label4" prefHeight="17.0" prefWidth="79.0" text="درس‌ها" />
+                     </graphic>
+                  </TableColumn>
+              </columns>
+               <VBox.margin>
+                  <Insets left="100.0" right="100.0" />
+               </VBox.margin>
+            </TableView>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

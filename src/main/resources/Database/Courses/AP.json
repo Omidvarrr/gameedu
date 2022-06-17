@@ -1,0 +1,36 @@
+{
+  "name": "AP",
+  "credit": 3,
+  "id": "2000101",
+  "department": {
+    "type": "CE"
+  },
+  "teacher": {
+    "roomNumber": 101,
+    "grade": "full",
+    "chief": true,
+    "id": 4,
+    "password": "Sghlphgj123",
+    "username": "2001",
+    "firstName": "mehrdad",
+    "lastName": "mosahebi",
+    "nationalCode": "6482764091",
+    "email": "mehrdadmosahebi@gmail.com",
+    "phoneNumber": "09302176439",
+    "department": {
+      "type": "CE"
+    },
+    "type": "PROFESSOR"
+  },
+  "grade": "B_S",
+  "days": [
+    "saturday",
+    "monday"
+  ],
+  "time": "9:00",
+  "testDate": "23 khordad 9:00 AM",
+  "grades": {
+    "3": -1
+  },
+  "scoreStatus": "TEMPORARY"
+}

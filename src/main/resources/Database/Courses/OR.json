@@ -1,0 +1,36 @@
+{
+  "name": "OR",
+  "credit": 3,
+  "id": "4000102",
+  "department": {
+    "type": "IE"
+  },
+  "teacher": {
+    "roomNumber": 101,
+    "grade": "full",
+    "chief": true,
+    "id": 6,
+    "password": "Sghlphgj123",
+    "username": "3001",
+    "firstName": "sina",
+    "lastName": "nasafi",
+    "nationalCode": "3718476516",
+    "email": "sinanasafi@gmail.com",
+    "phoneNumber": "09147849812",
+    "department": {
+      "type": "IE"
+    },
+    "type": "PROFESSOR"
+  },
+  "grade": "B_S",
+  "days": [
+    "saturday",
+    "monday"
+  ],
+  "time": "9:00",
+  "testDate": "23 khordad 9:00 AM",
+  "grades": {
+    "1": -1
+  },
+  "scoreStatus": "TEMPORARY"
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane fx:id="anchorPane" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUIController.CreateRecommendationPage">
+   <children>
+      <VBox alignment="TOP_CENTER" prefHeight="156.0" prefWidth="370.0" spacing="14.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="10.0" top="10.0" />
+         </padding>
+         <children>
+            <HBox alignment="TOP_CENTER" prefHeight="34.0" prefWidth="370.0" spacing="17.0">
+               <children>
+                  <ChoiceBox fx:id="professorChoiceBox" prefHeight="26.0" prefWidth="187.0">
+                     <HBox.margin>
+                        <Insets top="4.0" />
+                     </HBox.margin>
+                  </ChoiceBox>
+                  <Label fx:id="professorLabel" text="استاد:">
+                     <HBox.margin>
+                        <Insets top="6.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="39.0" prefWidth="370.0" spacing="19.0">
+               <children>
+                  <Button fx:id="sendButton" mnemonicParsing="false" onAction="#sendRecommendation" prefHeight="26.0" prefWidth="111.0" text="ارسال" />
+               </children>
+            </HBox>
+            <Label fx:id="sendedLabel" text="ارسال شد!" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

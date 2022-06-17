@@ -1,0 +1,36 @@
+{
+  "name": "economy",
+  "credit": 4,
+  "id": "4000101",
+  "department": {
+    "type": "IE"
+  },
+  "teacher": {
+    "roomNumber": 102,
+    "grade": "associate",
+    "educationalAssistant": true,
+    "id": 7,
+    "password": "Sghlphgj123",
+    "username": "3002",
+    "firstName": "musa",
+    "lastName": "shokri",
+    "nationalCode": "4201873642",
+    "email": "musashokri@gmail.com",
+    "phoneNumber": "09137648923",
+    "department": {
+      "type": "IE"
+    },
+    "type": "PROFESSOR"
+  },
+  "grade": "B_S",
+  "days": [
+    "saturday",
+    "monday"
+  ],
+  "time": "9:00",
+  "testDate": "23 khordad 9:00 AM",
+  "grades": {
+    "3": -1
+  },
+  "scoreStatus": "TEMPORARY"
+}

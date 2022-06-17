@@ -1,0 +1,18 @@
+{
+  "roomNumber": 103,
+  "grade": "associate",
+  "chief": false,
+  "educationalAssistant": false,
+  "id": 3,
+  "password": "Sghlphgj123",
+  "username": "1002",
+  "firstName": "arshak",
+  "lastName": "moghadasi",
+  "nationalCode": "8720183756",
+  "email": "ahmadmeshkani@gmail.com",
+  "phoneNumber": "09766528734",
+  "department": {
+    "type": "MATH"
+  },
+  "type": "PROFESSOR"
+}

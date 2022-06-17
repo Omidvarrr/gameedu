@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="250.0" maxWidth="700.0" minHeight="250.0" minWidth="700.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUIController.ProfessorListPage">
+   <children>
+      <VBox fx:id="VBox" alignment="CENTER" prefHeight="280.0" prefWidth="700.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <TableView fx:id="recommendationTableView" prefHeight="210.0" prefWidth="700.0">
+               <columns>
+                  <TableColumn fx:id="studentColumn" prefWidth="143.219877243042">
+                     <graphic>
+                        <Label fx:id="label1" prefHeight="17.0" prefWidth="70.0" text="دانشجو" />
+                     </graphic>
+                  </TableColumn>
+                  <TableColumn fx:id="teacherColumn" prefWidth="159.17648315429688">
+                     <graphic>
+                        <Label fx:id="label2" prefHeight="17.0" prefWidth="62.0" text="استاد" />
+                     </graphic>
+                  </TableColumn>
+                  <TableColumn fx:id="resultColumn" minWidth="0.0" prefWidth="85.32347106933594">
+                     <graphic>
+                        <Label fx:id="label3" prefHeight="17.0" prefWidth="90.0" text="وضعیت" />
+                     </graphic>
+                  </TableColumn>
+                  <TableColumn fx:id="acceptColumn" prefWidth="115.19744873046875">
+                     <graphic>
+                        <Label fx:id="label4" prefHeight="17.0" prefWidth="64.0" text="موافقت" />
+                     </graphic>
+                  </TableColumn>
+                  <TableColumn fx:id="rejectColumn" prefWidth="86.13446044921875">
+                     <graphic>
+                        <Label fx:id="label5" prefHeight="17.0" prefWidth="51.0" text="مخالفت" />
+                     </graphic>
+                  </TableColumn>
+                  <TableColumn fx:id="showColumn" prefWidth="89.17779541015625">
+                     <graphic>
+                        <Label fx:id="label6" prefHeight="17.0" prefWidth="41.0" text="نمایش" />
+                     </graphic>
+                  </TableColumn>
+               </columns>
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" top="5.0" />
+               </VBox.margin>
+            </TableView>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

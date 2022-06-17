@@ -1,0 +1,57 @@
+{
+  "id": 4,
+  "student": {
+    "grade": "M_A",
+    "status": "gratuated",
+    "supervisor": {
+      "roomNumber": 102,
+      "grade": "associate",
+      "educationalAssistant": true,
+      "id": 0,
+      "password": "Sghlphgj123",
+      "username": "1002",
+      "firstName": "ahmad",
+      "lastName": "meshkani",
+      "nationalCode": "8720183756",
+      "email": "ahmadmeshkani@gmail.com",
+      "phoneNumber": "09766528734",
+      "department": {
+        "type": "MATH"
+      },
+      "type": "PROFESSOR"
+    },
+    "enteringYear": 1398,
+    "id": 6,
+    "password": "omidvar",
+    "username": "ali",
+    "firstName": "aria",
+    "lastName": "farsi",
+    "nationalCode": "5030087931",
+    "email": "aliomidvarrrrr@gmail.com",
+    "phoneNumber": "09351616136",
+    "department": {
+      "type": "MATH"
+    },
+    "type": "STUDENT",
+    "enterTime": "2022-04-29 22:25:35"
+  },
+  "teacher": {
+    "roomNumber": 101,
+    "grade": "full",
+    "chief": true,
+    "educationalAssistant": false,
+    "id": 11,
+    "password": "Sghlphgj123",
+    "username": "5001",
+    "firstName": "ali",
+    "lastName": "farahani",
+    "nationalCode": "4321475937",
+    "email": "alifarahani@gmail.com",
+    "phoneNumber": "09926748791",
+    "department": {
+      "type": "CHE"
+    },
+    "type": "PROFESSOR"
+  },
+  "result": "pending"
+}

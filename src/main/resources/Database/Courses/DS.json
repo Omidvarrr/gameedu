@@ -1,0 +1,71 @@
+{
+  "name": "DS",
+  "credit": 3,
+  "id": "2000102",
+  "department": {
+    "type": "CE"
+  },
+  "teacher": {
+    "roomNumber": 102,
+    "grade": "assistant",
+    "educationalAssistant": true,
+    "id": 5,
+    "password": "Sghlphgj123",
+    "username": "2002",
+    "firstName": "zahra",
+    "lastName": "mohammadi",
+    "nationalCode": "3175649381",
+    "email": "zahramohammadi@gmail.com",
+    "phoneNumber": "09127846512",
+    "department": {
+      "type": "CE"
+    },
+    "type": "PROFESSOR"
+  },
+  "grade": "B_S",
+  "prerequisites": {
+    "name": "AP",
+    "credit": 4,
+    "id": "2000101",
+    "department": {
+      "type": "CE"
+    },
+    "teacher": {
+      "roomNumber": 101,
+      "grade": "full",
+      "id": 2,
+      "password": "Sghlphgj123",
+      "username": "1001",
+      "firstName": "taha",
+      "lastName": "fathhi",
+      "nationalCode": "83719373910",
+      "email": "tahafathi@gmail.com",
+      "phoneNumber": "09379841376",
+      "department": {
+        "type": "MATH"
+      },
+      "type": "PROFESSOR"
+    },
+    "grade": "B_S",
+    "days": [
+      "saturday",
+      "monday"
+    ],
+    "time": "9:00",
+    "testDate": "23 khordad 9:00 AM",
+    "grades": {
+      "1": -1
+    },
+    "scoreStatus": "TEMPORARY"
+  },
+  "days": [
+    "saturday",
+    "monday"
+  ],
+  "time": "9:00",
+  "testDate": "23 khordad 9:00 AM",
+  "grades": {
+    "4": -1
+  },
+  "scoreStatus": "TEMPORARY"
+}
